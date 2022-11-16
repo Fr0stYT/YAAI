@@ -1,16 +1,9 @@
-<html>
-<head>
-    <script type="text/javascript">
-        function open_win() {
-            //window.open("https://fr0styt.github.io/YAAI/")
-            window.location = "https://fr0styt.github.io/YAAI/"
-        }
-    </script>
-</head>
-
-<body>
-    <form>
-        <input type=6="navigate to" onclick="open_win()">
-    </form>
-</body>
-</html>
+<script type="text/javascript">
+  window.onbeforeunload = confirmExit;
+  function confirmExit()
+ function newDoc() {
+  window.location.assign("https://fr0styt.github.io/yaai/")
+}
+    return "YouAreAnIdiot";
+  }
+</script>
